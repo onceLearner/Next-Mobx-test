@@ -1,7 +1,7 @@
 
 
 //interfaces
-export type BriefData = {
+export type Brief = {
   id: number
   city: string
   country_code: string

@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from "next/image"
 import { CameraIcon, CloseIcon, DateIcon, LocationIcon, MoneyIcon, VideoIcon } from './icons/main'
-import { BriefData } from '../interfaces'
+import { Brief } from '../interfaces'
 
 type Props = {
-    data: BriefData
+    data: Brief
 }
 
 
 const Card = ({ data }: Props) => {
     return (
-        <div className="flex flex-col i w-96 border shadow-lg ">
+        <div key={data.id} className="flex flex-col i w-96 border shadow-lg ">
             <div className="Img relative h-60">
                 <Image src="/picture2.jpg" layout="fill" objectFit="cover" />
 
