@@ -2,9 +2,9 @@ import React from "react"
 
 import Header from "../components/Header"
 import Card from "../components/Card"
-import { CardData } from "../interfaces"
+import { BriefData } from "../interfaces"
 
-let arrayOfData: Array<CardData> = [
+let arrayOfData: Array<BriefData> = [
   {
     id: 1,
     city: "London",
